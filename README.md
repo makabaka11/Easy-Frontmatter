@@ -5,4 +5,5 @@
 对，就是这样。
 
 目前界面仅支持中文简体
-Only CHS supported now。
+
+Only CHS supported now.
