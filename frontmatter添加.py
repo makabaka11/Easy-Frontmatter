@@ -1,26 +1,3 @@
-"""
-中文界面的 Markdown Frontmatter 工具
-支持生成与修改 Hugo/TOML 格式 frontmatter。
-
-功能：
-- 选择 Markdown 文件后若检测到已有 frontmatter，自动解析并加载到界面中供编辑。
-- 必选：标题、日期（含“获取当前时间”按钮）
-- 可选：描述、头图、分类（可增删）、权重、是否草稿
-- 生成格式：
-  +++
-  title = '...'
-  description = '...'
-  date = 2025-11-01T09:58:38+08:00
-  weight = 1
-  draft = true
-  image = '...'
-  categories = [  
-      '影视',
-      'ACG'
-  ]  
-  +++
-"""
-
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import datetime
